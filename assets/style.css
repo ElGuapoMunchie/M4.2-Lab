@@ -1,34 +1,32 @@
+section{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  /* Display border for easier visualization */
+  /* border-style: dashed; */
+}
+
 h1{
+  display:block;
   font-style:oblique;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size:50px;
   text-shadow: 0px 3px 10px rgb(55, 55, 55);
-  /* filter: drop-shadow(0px 0px 7px grey); */
   text-align: center;
   text-transform: uppercase;
-  border-style:solid;
 
-}
-
-h2{
-  text-align: center;
-  border-radius: 5px;
-  border-color: black;
-  border-style:solid;
-}
-
-p {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: medium;
-  border-style:solid;
-  border-color: white;
+  /* Display border to make it easier to visualize */
+  /* border-style:solid; */
 }
 
 .box{
-  border-style: solid;
-  border-color: blueviolet;
   width: 100px;
   text-align: right;
+
+  /* Create border for easier visualization */
+  /* border-style: solid;
+  border-color: rgb(255, 255, 255); */
 }
 
 img{
@@ -36,29 +34,76 @@ img{
 }
 
 .wrapper{
-  border-style: solid;
-  border-color: blueviolet;
   background-color: rgb(73, 207, 67);
-}
 
-.text-box, ul{
-  background-color: rgb(44, 225, 43);
+  /* Create border for easier visualization */
+  /* border-width: 8px;
+  border-style: dashed;
+  border-color: blueviolet; */
 }
 
 li{
-  border-style: solid;
-  border-color: blueviolet;
-  background-color: rgb(44, 225, 43);
+  font-size: x-large;
+  text-transform:uppercase;
   float: left;
   list-style: none;
   text-align: center;
-  margin-right: 30px;
-  width: 150px;
-  line-height: 60px;
+  width: 200px;
+ 
+  /* Border options to help view item's location */
+  /* border-style: solid;
+  border-color: black; */
 }
 
-.border-text-box{
+.menu{
+  background-color: rgb(44, 225, 43);
+  display:flex;
+  align-items:center;
+  justify-content:space-around;  
+  flex-direction: row;
+
+  /* Display border to make it easier to visualize */
+  /* border-style: solid;
+  border-color: rgb(246, 7, 7); */
+}
+
+.container{
+  display:grid;
+}
+
+.container{
+  display: grid;
+  grid-template-columns:2fr, 1fr;
+  gap: 20px;
+
+  /* Display border for easier visualization */
+  /* border-width: 20px;
+  border-style: solid; */
+}
+
+.container > div{
+  border-radius: 5px;
+  padding: 10px;
+
+  /* Display border for easier visualization */
   border-style: solid;
-  border-color: rgb(255, 6, 205);
-  background-color: green;
+  border-width: 10px;
+}
+
+h2{
+  text-align: center;
+
+  /* Create border for easier visualization */
+  /* border-width: 5px;
+  border-color: black;
+  border-style:solid; */
+}
+
+p {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+
+  /* Create border for easier visualization */
+  /* border-style:solid;
+  border-color: white; */
 }
