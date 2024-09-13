@@ -73,7 +73,7 @@ li{
 
 .container{
   display: grid;
-  grid-template-columns:2fr, 1fr;
+  grid-template-columns: 2fr 1fr;
   gap: 20px;
 
   /* Display border for easier visualization */
@@ -83,7 +83,7 @@ li{
 
 .container > div{
   border-radius: 5px;
-  padding: 10px;
+  padding: 1em;
 
   /* Display border for easier visualization */
   border-style: solid;
